@@ -4,8 +4,8 @@ use yew::{function_component, html, Html};
 pub fn me() -> Html {
     html! {
         <div>
-            <h1>{"Hi,There👋"}</h1>
-            <img class="logo" src="https://raw.githubusercontent.com/Sigumaa/Sigumaa/main/shiyui.jpeg" alt="my icon" />
+            <h1>{"Shiyui"}</h1>
+            <img class="logo" src="https://raw.githubusercontent.com/Sigumaa/Sigumaa/c24583e8d0ed0e62056f1c2c1567744f9b298d51/shiyui.jpeg" alt="my icon" />
         </div>
     }
 }
