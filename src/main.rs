@@ -1,9 +1,12 @@
+use components::me::Me;
 use yew::prelude::*;
+
+mod components;
 
 #[function_component(App)]
 fn app() -> Html {
     html! {
-        <h1>{"Hi,There👋"}</h1>
+            <Me />
     }
 }
 fn main() {
