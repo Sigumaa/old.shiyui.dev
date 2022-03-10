@@ -1,4 +1,4 @@
-use components::intro::Intro;
+use components::languages::Lang;
 use components::me::Me;
 use yew::prelude::*;
 
@@ -9,7 +9,7 @@ fn app() -> Html {
     html! {
         <div >
             <Me />
-            <Intro />
+            <Lang />
         </div>
     }
 }

@@ -1,7 +1,7 @@
 use yew::{function_component, html, Html};
 
-#[function_component(Intro)]
-pub fn intro() -> Html {
+#[function_component(Lang)]
+pub fn lang() -> Html {
     html! {
         <>
         <h3>{"languages (Just a little bit)"}</h3>
