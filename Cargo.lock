@@ -274,6 +274,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "shiyuidev"
+version = "0.1.0"
+dependencies = [
+ "yew",
+]
+
+[[package]]
 name = "slab"
 version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -431,11 +438,4 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "yume"
-version = "0.1.0"
-dependencies = [
- "yew",
 ]
