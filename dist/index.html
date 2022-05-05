@@ -4,37 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shiyui</title>
 
-<link rel="preload" href="/index-9d977c7f7bd855d6_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/index-9d977c7f7bd855d6.js"></head>
+<link rel="preload" href="/index-8593741a8ed5e5d1_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/index-8593741a8ed5e5d1.js"></head>
 
 <body style="background-color: #d8e2ae">
 
 
 
-<script type="module">import init from '/index-9d977c7f7bd855d6.js';init('/index-9d977c7f7bd855d6_bg.wasm');</script><script>(function () {
-    var url = 'ws://' + window.location.host + '/_trunk/ws';
-    var poll_interval = 5000;
-    var reload_upon_connect = () => {
-        window.setTimeout(
-            () => {
-                // when we successfully reconnect, we'll force a
-                // reload (since we presumably lost connection to
-                // trunk due to it being killed, so it will have
-                // rebuilt on restart)
-                var ws = new WebSocket(url);
-                ws.onopen = () => window.location.reload();
-                ws.onclose = reload_upon_connect;
-            },
-            poll_interval);
-    };
-
-    var ws = new WebSocket(url);
-    ws.onmessage = (ev) => {
-        const msg = JSON.parse(ev.data);
-        if (msg.reload) {
-            window.location.reload();
-        }
-    };
-    ws.onclose = reload_upon_connect;
-})()
-</script></body></html>
+<script type="module">import init from '/index-8593741a8ed5e5d1.js';init('/index-8593741a8ed5e5d1_bg.wasm');</script></body></html>
