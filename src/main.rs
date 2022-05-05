@@ -1,4 +1,5 @@
 use components::languages::Lang;
+use components::link::Link;
 use components::me::Me;
 use yew::prelude::*;
 
@@ -7,10 +8,11 @@ mod components;
 #[function_component(App)]
 fn app() -> Html {
     html! {
-        <div >
+        <>
             <Me />
             <Lang />
-        </div>
+            <Link />
+        </>
     }
 }
 fn main() {
