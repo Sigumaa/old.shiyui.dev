@@ -14,8 +14,8 @@ pub fn lang() -> Html {
             <li>{"C++"}</li>
         </ul>
         <a>{"GoやRustが好きです。TSも書きます。"}</a><br/>
-        <a>{"WebSocket楽しい"}</a><br/>
-        <a>{"Pythonは書きたくない"}</a><br/>
+        <a>{"WebSocket楽しい。"}</a><br/>
+        <a>{"Pythonは書きたくない。"}</a><br/>
         <a>{"C++はごくまれに書きます。"}</a>
         </>
     }
