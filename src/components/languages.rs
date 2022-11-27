@@ -4,20 +4,19 @@ use yew::{function_component, html};
 pub fn lang() -> Html {
     html! {
         <>
-        <h3>{"languages (Just a little bit)"}</h3>
+        <h3>{"lang"}</h3>
         <ul>
+            <li>{"Go"}</li>
             <li>{"Rust"}</li>
-            <li>{"TypeScript(server)"}</li>
+            <li>{"TypeScript"}</li>
             <li>{"Python"}</li>
             <li>{"Lua"}</li>
-            <li>{"Go"}</li>
             <li>{"C++"}</li>
         </ul>
-        <h4>{"Others"}</h4>
-        <ul>
-            <li>{"Prisma"}</li>
-            <li>{"Mariadb"}</li>
-        </ul>
+        <a>{"GoやRustが好きです。TSも書きます。"}</a><br/>
+        <a>{"WebSocket楽しい"}</a><br/>
+        <a>{"Pythonは書きたくない"}</a><br/>
+        <a>{"C++はごくまれに書きます。"}</a>
         </>
     }
 }
