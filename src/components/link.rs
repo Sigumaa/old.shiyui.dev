@@ -11,7 +11,6 @@ pub fn link() -> Html {
             <li><a rel="me" href="https://qiita.com/Siguma">{"Qiita"}</a></li>
             <li><a rel="me" href="https://zenn.dev/shiyui">{"Zenn"}</a></li>
             <li><a rel="me" href="https://filmarks.com/users/shiii_i_">{"Filmarks"}</a></li>
-            <li><a rel="me" href="https://shiyui.hatenablog.com/">{"Hatena Blog"}</a></li>
         </ul>
         </>
     }

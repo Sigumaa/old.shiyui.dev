@@ -6,9 +6,11 @@ pub fn me() -> Html {
         <div>
             <h1>{"Shiyui"}</h1>
             <img class="logo"  src="https://avatars.githubusercontent.com/u/66453922?v=4" alt="my icon" width="200" height="200"/>
-            <br /><small>{"GitHub Icon"}</small><br />
-            <a>{"学生です。"}</a><br />
-            <a>{"サーバーサイドが好きです。"}</a><br />
+            <br /><small>{"GitHub Icon"}</small><br /><br />
+            <a>{"学生です。サーバーサイドが好きです。"}</a><br />
+            <a>{"I'm a college student.
+            I prefer server side.
+            I like Go and Rust languages."}</a><br />
         </div>
     }
 }
