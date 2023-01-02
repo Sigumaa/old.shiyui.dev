@@ -10,7 +10,7 @@ pub fn me() -> Html {
             <a>{"学生です。サーバーサイドが好きです。"}</a><br />
             <a>{"I'm a college student.
             I prefer server side.
-            I like Go and Rust languages."}</a><br />
+            I like Go language."}</a><br />
         </div>
     }
 }
